@@ -1,0 +1,296 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  font-display: auto;
+  src: url("Roboto-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: auto;
+  src: url("Roboto-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  font-display: auto;
+  src: url("Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  font-display: auto;
+  src: url("Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  font-display: auto;
+  src: url("Lato/Lato-Light.ttf");
+}
+
+body {
+  margin: auto;
+  padding: 0px;
+}
+
+  #main {
+    margin: auto;
+    background-image: url("desktopmainbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+	position: flex;
+  }
+
+@media only screen and (max-width: 550px) {
+  #main {
+    margin: auto;
+    background-image: url("mobilemainbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+	position: flex;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #logo {
+    width: 30px;
+    height: 20px;
+    padding-right: 10px;
+    float: right;
+  }
+}
+
+#logo {
+  width: 50px;
+  height: 40px;
+  padding-right: 10px;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+@media only screen and (max-width: 550px) {
+  #menu {
+    width: 30px;
+    height: 20px;
+    padding-right: 10px;
+    float: left;
+  }
+}
+
+#menu {
+  width: 30px;
+  height: 20px;
+  padding: 10px;
+  float: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  /* position: fixed; */
+  position:static;
+  margin: auto;
+  font-size: 60px;
+  color: #595959;
+  text-align: center;
+  font-family: "Roboto-Bold";
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+}
+
+#cus {
+position:static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+h2
+{
+  position:static;
+  margin: auto;
+  font-size: 48px;
+  color: #595959;
+  text-align: center;
+  font-family: "Roboto-Light";
+}
+
+h3
+{
+  position:static;
+  margin: auto;
+  font-size: 16px;
+  color: #595959;
+  text-align: center;
+  font-family: "Roboto-Bold";
+}
+#main2 {
+  margin: auto;
+  background-image: url("desktopprotuctbacground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+
+}
+
+@media only screen and (max-width: 550px) {
+  #main2 {
+    margin: auto;
+    background-image: url("mobileprotuctbacground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+	position: flex;
+  }
+}
+
+.font1
+{
+  position:flex;
+  margin: auto;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Lato-Regular";
+}
+
+#arrow
+{
+	position:flex;
+	text-align: center;
+	margin:auto;
+	height: 100px;
+	width: 60px;
+}
+
+#button
+{
+	border-radius: 20px;
+	border: solid 5px white;
+	position:flex;
+	text-align: center;
+	margin:auto;
+	color: #FF0000;
+	font-size: 18px;
+	width: 200px;
+	background-color:#FFFFFF;
+}
+
+.middle
+{
+		position:flex;
+	text-align: center;
+	margin:auto;
+}
+
+#main3 {
+  margin: auto;
+  background-image: url("desktopfeaturesbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+
+}
+
+@media only screen and (max-width: 550px) {
+  #main3 {
+    margin: auto;
+    background-image: url("mobilefeaturesbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+	position: flex;
+  }
+}
+
+.contatainer
+{
+	flex-wrap:wrap;
+}
+
+.feature-img
+{
+	margin: 20px 10px 10px 10px;
+	width:60px;
+	height:60px;
+}
+
+.font2
+{
+  font-size: 13px;
+  color: #595959;
+  text-align: left;
+  font-family: "Lato-Light";
+}
+
+
+.ulozenie
+{
+	display:flex;
+}
+
+.font3{
+	float: left;
+}
+
+#main4 {
+  margin: auto;
+  background-image: url("desktopbuynowbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+
+}
+
+@media only screen and (max-width: 550px) {
+  #main4 {
+    margin: auto;
+    background-image: url("mobilebuynowbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+	position: flex;
+  }
+}
+
+#cus2 {
+position:static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+footer
+{
+	height:auto;
+	width: 100%;
+	background-color:#FF514D;
+}
+
+
+.font4
+{
+	margin:auto
+  font-size: 13px;
+  color: #000000;
+  font-family: "Lato-Light";
+}
